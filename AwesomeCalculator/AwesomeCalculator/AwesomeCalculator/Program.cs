@@ -90,7 +90,7 @@ namespace AwesomeCalculator
             while (validCalcSelect == false)
             {
                 Console.WriteLine("1 = Use random numbers between 0 and 501 for your calculation\n");
-                Console.WriteLine("2 = Provide your own numbers\n");
+                Console.WriteLine("2 = Provide your own numbers\n.");
                 Console.WriteLine("Choose a menu item to begin:");
                 calcSelection = Console.ReadLine();
                 Console.WriteLine();
